@@ -2,10 +2,10 @@
 
 return [
     'database' => [
-        'host' => '127.0.0.1',
-        'username' => 'root',
+        'host' => 'hostIP',
+        'username' => 'username',
         'password' => 'password',
-        'dbname' => 'test',
+        'dbname' => 'db name',
         'port' => 3305,
     ]
 ];

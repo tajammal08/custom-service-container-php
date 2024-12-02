@@ -13,7 +13,7 @@ class Database
         $this->config = $config;
     }
 
-    public function connect(): mysqli
+    public function connect(): string|mysqli
     {
         $config = $this->config;
 
@@ -36,4 +36,4 @@ class Database
     }
 }
 
-?>
+

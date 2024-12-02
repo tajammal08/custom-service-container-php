@@ -1,10 +1,8 @@
 <?php
 
-use Core\App;
-
-require_once __DIR__ . '/core/Container.php';
-require_once __DIR__ . '/core/App.php';
-require_once __DIR__ . '/database/database.php';
+require_once __DIR__ . '/vendor/autoload.php';
 require_once __DIR__ . '/bootstrap.php';
+
+use Core\App;
 
 $DB = App::DB();

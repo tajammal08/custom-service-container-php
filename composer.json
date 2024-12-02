@@ -1,0 +1,19 @@
+{
+    "name": "php/custom-service-container",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Core\\": "core/",
+            "Database\\": "database/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tajammal08",
+            "email": "tajammalamin001@gmail.com"
+        }
+    ],
+    "require": {
+      "ext-mysqli": "*"
+    }
+}
